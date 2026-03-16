@@ -1,0 +1,62 @@
+/* Global Page Styling */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+}
+
+/* Card Styling */
+.card{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Card Hover Effect */
+.card:hover{
+    transform: translateY(-5px);
+}
+
+/* Button Styling */
+.btn{
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Button Hover Effect */
+.btn:hover{
+    transform: scale(1.05);
+}
+
+/* Links Styling */
+a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Form Inputs */
+.form-control{
+    border-radius: 8px;
+}
+
+/* Dashboard Heading */
+h1{
+    font-weight: 600;
+}
+
+/* Navbar Styling */
+.navbar{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Responsive Improvements */
+@media (max-width:768px){
+    .card{
+        width: 90% !important;
+    }
+}
